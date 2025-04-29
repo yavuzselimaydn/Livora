@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+📱Livora Expo App - React Native Project
+Bu proje, create-expo-app komutu kullanılarak oluşturulmuş bir React Native + Expo Router mobil uygulamasıdır.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Başlarken
+1. Bağımlılıkları yükle
+bash
+Kopyala
+Düzenle
+npm install
+2. Uygulamayı başlat
+bash
+Kopyala
+Düzenle
+npx expo start
+Terminalde aşağıdaki seçenekler gözükecektir:
 
-## Get started
+Android emülatörü
 
-1. Install dependencies
+iOS simülatörü
 
-   ```bash
-   npm install
-   ```
+Expo Go uygulaması (fiziksel cihazda test için)
 
-2. Start the app
+Geliştirme paketi (development build)
 
-   ```bash
-    npx expo start
-   ```
+📁 Proje Yapısı
+Kodlar app/ klasörü içinde yer almakta ve file-based routing sistemi kullanılmaktadır.
 
-In the output, you'll find options to open the app in a
+🛠 Kullanılan Başlıca Kütüphaneler
+🔧 Navigation & Routing
+expo-router: Dosya tabanlı routing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+@react-navigation/native & @react-navigation/bottom-tabs: Ekranlar arası gezinme
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📦 Expo SDK Bileşenleri
+expo-av, expo-image, expo-image-picker: Ortam işleme
 
-## Get a fresh project
+expo-constants, expo-file-system, expo-splash-screen, expo-status-bar, expo-system-ui: Sistem bilgisi ve UI
 
-When you're ready, run:
+expo-haptics, expo-blur, expo-web-browser: Ekstra UX özellikleri
 
-```bash
+🎨 Arayüz & Tasarım
+@rneui/themed: RNEUI bileşenleri
+
+@expo/vector-icons: Icon setleri
+
+react-native-pell-rich-editor: Zengin metin editörü
+
+moment: Tarih/saat formatlama
+
+🧠 Durum ve Depolama
+@react-native-async-storage/async-storage: Kalıcı veri depolama
+
+@supabase/supabase-js: Supabase backend entegrasyonu
+
+🎨 Animasyon & UI
+react-native-gesture-handler, react-native-reanimated, react-native-safe-area-context, react-native-screens
+
+🌐 Diğer
+base64-arraybuffer, react-native-url-polyfill, patch-package: Yardımcı araçlar ve polyfill çözümleri
+
+🧹 Projeyi Temizle
+Proje sıfırlanarak örnek uygulama app-example klasörüne taşınır ve app/ klasörü sıfırlanır:
+
+bash
+Kopyala
+Düzenle
 npm run reset-project
-```
+📚 Daha Fazla Bilgi
+Expo Belgeleri
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo Router Giriş
 
-## Learn more
+Expo Öğrenme Serisi
 
-To learn more about developing your project with Expo, look at the following resources:
+👥 Topluluğa Katıl
+Expo GitHub
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Discord
