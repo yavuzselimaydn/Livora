@@ -1,4 +1,5 @@
 📱Livora Expo App - React Native Project
+
 Bu proje, create-expo-app komutu kullanılarak oluşturulmuş bir React Native + Expo Router mobil uygulamasıdır.
 
 🚀 Başlarken
