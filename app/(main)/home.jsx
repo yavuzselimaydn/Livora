@@ -18,6 +18,7 @@ var limit = 0;
 const Home = () => {
   const router = useRouter();
   const { user, setAuth } = useAuth()
+  console.log("jasdfkjdf",user)
   const [posts, setPosts] = useState([])
   const [hasMore, setHasMore] = useState(true)                 //dbdeki tum veriler geldi ise gereksiz istegi onledim bu kod ile
   const [notificationCount, setNotificationCount] = useState(0)

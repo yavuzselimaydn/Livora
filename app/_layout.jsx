@@ -28,7 +28,7 @@ const MainLayout = () => {
                 router.replace("/home")
             }else{
                 setAuth(null)
-                router.replace("/welcome")
+                router.replace("/home")
             }
         })
     },[])
